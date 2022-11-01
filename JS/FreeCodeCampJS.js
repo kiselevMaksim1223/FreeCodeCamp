@@ -17,3 +17,4 @@ let catName = "Oliver";
 let catSound = "Meow!";
 // math again
 const difference = 45 - 23;
+const product = 8 * 10;
