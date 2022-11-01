@@ -18,3 +18,4 @@ let catSound = "Meow!";
 // math again
 const difference = 45 - 23;
 const product = 8 * 10;
+const quotient = 66 / 33;
