@@ -22,9 +22,9 @@ const quotient = 66 / 33;
 let myVar = 11;
 //is the same as myVar=myVar-1
 myVar--;
-let myVar = 11;
+let myVars = 11;
 //is the same as myVar=myVar+1
-myVar++;
+myVars++;
 // remainder 11/3 = 3; 3*3=9; 11-9=3 --> remainder
 const remainder = 11 % 3;
 
