@@ -19,3 +19,6 @@ let catSound = "Meow!";
 const difference = 45 - 23;
 const product = 8 * 10;
 const quotient = 66 / 33;
+let myVar = 11;
+//is the same as myVar=myVar-1
+myVar--;
