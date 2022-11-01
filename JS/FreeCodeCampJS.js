@@ -25,4 +25,6 @@ myVar--;
 let myVar = 11;
 //is the same as myVar=myVar+1
 myVar++;
+// remainder 11/3 = 3; 3*3=9; 11-9=3 --> remainder
+const remainder = 11 % 3;
 
