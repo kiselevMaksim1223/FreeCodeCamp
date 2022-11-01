@@ -15,3 +15,5 @@ c = c + " String!";
 // change var to let
 let catName = "Oliver";
 let catSound = "Meow!";
+// math again
+const difference = 45 - 23;
