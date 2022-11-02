@@ -1,17 +1,17 @@
-var a;
+let a;
 a = 7;
-var b;
+let b;
 b=a;
-var a = 9;
-var myFirstName = 'Maks';
-var myLastName = 'Kiselev';
+let a0 = 9;
+let myFirstName = 'Maks';
+let myLastName = 'Kiselev';
 // some math
-var a = 5;
-var b = 10;
-var c = 'I am a';
-a = a + 1;
-b = b + 5;
-c = c + " String!";
+let a1 = 5;
+let b1 = 10;
+let c1 = 'I am a';
+a1 = a1 + 1;
+b1 = b1+ 5;
+c1 = c1 + " String!";
 // change var to let
 let catName = "Oliver";
 let catSound = "Meow!";
@@ -28,34 +28,38 @@ myVars++;
 // remainder 11/3 = 3; 3*3=9; 11-9=3 --> remainder
 const remainder = 11 % 3;
 // a=a+3 == a+=3
-let a = 3;
-let b = 17;
-let c = 12;
-a += 12;
-b += 9;
-c += 7;
+let a2 = 3;
+let b2 = 17;
+let c2 = 12;
+a2 += 12;
+b2 += 9;
+c2 += 7;
 // a=a-3 == a-=3
-let a = 11;
-let b = 9;
-let c = 3;
-a -= 6;
-b -= 15;
-c -= 1;
+let a3= 11;
+let b3 = 9;
+let c3 = 3;
+a3 -= 6;
+b3 -= 15;
+c3 -= 1;
 // a=a*3 == a*=3
-let a = 5;
-let b = 12;
-let c = 4.6;
-a *= 5;
-b *= b;
-c *= 10;
+let a4 = 5;
+let b4 = 12;
+let c4 = 4.6;
+a4 *= 5;
+b4 *= b;
+c4 *= 10;
 // a=a/3 == a/=3
-let a = 48;
-let b = 108;
-let c = 33;
-a /= 12;
-b /= 4;
-c /= 11;
+let a5 = 48;
+let b5 = 108;
+let c5 = 33;
+a5 /= 12;
+b5 /= 4;
+c5 /= 11;
 // how to "" in the string
 const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 // how to "<a>" in the string
 const myString = '<a href="http://www.example.com" target="_blank"> Link </a>';
+// vot takaya huita:|FirstLine
+//                  |    \SecondLine
+//                  |ThirdLine
+const myStrg = "FirstLine\n\t\\SecondLine\nThirdLine"
