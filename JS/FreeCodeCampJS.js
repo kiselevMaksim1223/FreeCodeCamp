@@ -55,3 +55,5 @@ let c = 33;
 a /= 12;
 b /= 4;
 c /= 11;
+// how to "" in the string
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
