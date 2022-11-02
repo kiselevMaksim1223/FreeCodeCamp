@@ -57,3 +57,5 @@ b /= 4;
 c /= 11;
 // how to "" in the string
 const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+// how to "<a>" in the string
+const myStr = '<a href="http://www.example.com" target="_blank"> Link </a>';
