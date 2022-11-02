@@ -27,4 +27,11 @@ let myVars = 11;
 myVars++;
 // remainder 11/3 = 3; 3*3=9; 11-9=3 --> remainder
 const remainder = 11 % 3;
+// a=a+3 == a+=3
+let a = 3;
+let b = 17;
+let c = 12;
+a += 12;
+b += 9;
+c += 7;
 
