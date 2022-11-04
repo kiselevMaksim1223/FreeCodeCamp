@@ -63,3 +63,9 @@ const myString = '<a href="http://www.example.com" target="_blank"> Link </a>';
 //                  |    \SecondLine
 //                  |ThirdLine
 const myStrg = "FirstLine\n\t\\SecondLine\nThirdLine"
+// Use Bracket Notation to Find the Nth Character in a String
+
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
