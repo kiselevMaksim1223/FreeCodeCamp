@@ -71,6 +71,6 @@ const lastName = "Lovelace";
 const thirdLetterOfLastName = lastName[2]; // Change this line
 // last letter of the string
 // Setup
-const lastName = "Lovelace";
+const lastName1 = "Lovelace";
 // Only change code below this line
-const lastLetterOfLastName = lastName[lastname.length-1]; // Change this line
+const lastLetterOfLastName = lastName[lastname1.length-1]; // Change this line
