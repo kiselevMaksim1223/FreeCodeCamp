@@ -98,3 +98,8 @@ const removedFromMyArray5 =myArray5.shift();
 const myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
 myArray.unshift(["Paul", 35])
+// Passing Values to Functions with Arguments
+function functionWithArgs(p1, p2) {
+    console.log(p1+p2)
+  };
+  functionWithArgs(1,2);
