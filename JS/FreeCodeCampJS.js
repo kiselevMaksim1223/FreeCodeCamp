@@ -103,3 +103,7 @@ function functionWithArgs(p1, p2) {
     console.log(p1+p2)
   };
   functionWithArgs(1,2);
+//Return a Value from a Function with Return   
+function timesFive(num) {
+    return num*5;
+  }
