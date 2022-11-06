@@ -94,3 +94,7 @@ const removedFromMyArray4 = myArray4.pop();
 // Manipulate Arrays With shift()
 const myArray5 = [["John", 23], ["dog", 3]];
 const removedFromMyArray5 =myArray5.shift();
+// Manipulate Arrays With unshift()
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35])
