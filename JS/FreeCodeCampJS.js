@@ -89,5 +89,8 @@ myArray2[0] = 45
 const myArray3 = [["John", 23], ["cat", 2]];
 myArray3.push(["dog", 3]);
 // pop()
-const myArray = [["John", 23], ["cat", 2]];
-const removedFromMyArray = myArray.pop();
+const myArray4 = [["John", 23], ["cat", 2]];
+const removedFromMyArray4 = myArray4.pop();
+// Manipulate Arrays With shift()
+const myArray5 = [["John", 23], ["dog", 3]];
+const removedFromMyArray5 =myArray5.shift();
