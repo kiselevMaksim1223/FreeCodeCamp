@@ -82,3 +82,6 @@ const lastName2 = "Lovelace";
 const secondToLastLetterOfLastName = lastName2[lastName2.length-2]; // Change this line
 // Nest one Array within Another Array
 const myArray1 = [[1,2,3], ["ass", 13]];
+// Modify Array Data With Indexes
+const myArray = [18, 64, 99];
+myArray[0] = 45
