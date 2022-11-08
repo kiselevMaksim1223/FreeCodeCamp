@@ -4,6 +4,11 @@
 .smaller-image { 
     width: 100px;
 }
+.thick-green-border {
+    border-color: green;
+    border-width: 5px;
+    border-style: solid;
+}
 p {
     font-size: 16px;
     font-family: monospace;
