@@ -1,7 +1,7 @@
 let a;
 a = 7;
 let b;
-b=a;
+b = a;
 let a0 = 9;
 let myFirstName = 'Maks';
 let myLastName = 'Kiselev';
@@ -10,7 +10,7 @@ let a1 = 5;
 let b1 = 10;
 let c1 = 'I am a';
 a1 = a1 + 1;
-b1 = b1+ 5;
+b1 = b1 + 5;
 c1 = c1 + " String!";
 // change var to let
 let catName = "Oliver";
@@ -35,7 +35,7 @@ a2 += 12;
 b2 += 9;
 c2 += 7;
 // a=a-3 == a-=3
-let a3= 11;
+let a3 = 11;
 let b3 = 9;
 let c3 = 3;
 a3 -= 6;
@@ -73,15 +73,15 @@ const thirdLetterOfLastName = lastName[2]; // Change this line
 // Setup
 const lastName1 = "Lovelace";
 // Only change code below this line
-const lastLetterOfLastName = lastName1[lastName1.length-1]; // Change this line
+const lastLetterOfLastName = lastName1[lastName1.length - 1]; // Change this line
 // get the value of the second-to-last letter
 
 const lastName2 = "Lovelace";
 
 // Only change code below this line
-const secondToLastLetterOfLastName = lastName2[lastName2.length-2]; // Change this line
+const secondToLastLetterOfLastName = lastName2[lastName2.length - 2]; // Change this line
 // Nest one Array within Another Array
-const myArray1 = [[1,2,3], ["ass", 13]];
+const myArray1 = [[1, 2, 3], ["ass", 13]];
 // Modify Array Data With Indexes
 const myArray2 = [18, 64, 99];
 myArray2[0] = 45
@@ -93,17 +93,35 @@ const myArray4 = [["John", 23], ["cat", 2]];
 const removedFromMyArray4 = myArray4.pop();
 // Manipulate Arrays With shift()
 const myArray5 = [["John", 23], ["dog", 3]];
-const removedFromMyArray5 =myArray5.shift();
+const removedFromMyArray5 = myArray5.shift();
 // Manipulate Arrays With unshift()
 const myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
 myArray.unshift(["Paul", 35])
 // Passing Values to Functions with Arguments
 function functionWithArgs(p1, p2) {
-    console.log(p1+p2)
-  };
-  functionWithArgs(1,2);
+    console.log(p1 + p2)
+};
+functionWithArgs(1, 2);
 //Return a Value from a Function with Return   
 function timesFive(num) {
-    return num*5;
-  }
+    return num * 5;
+}
+//   about VARIABLE;
+let myGlobal = 10;
+
+function fun1() {
+    // Assign 5 to oopsGlobal Here
+    oopsGlobal = 5
+}
+// Only change code above this line
+function fun2() {
+    var output = "";
+    if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+    }
+    if (typeof oopsGlobal != "undefined") {
+        output += " oopsGlobal: " + oopsGlobal;
+    }
+    console.log(output);
+}
