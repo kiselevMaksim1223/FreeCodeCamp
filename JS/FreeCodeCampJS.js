@@ -150,11 +150,18 @@ function trueOrFalse(wasThatTrue) {
 trueOrFalse(true)
 trueOrFalse(false)
 
-// equal or not equal
+// equal or not equal, === mean strict equal, == convert both values on same type
 function testEqual(val) {
-    if (val == 12) { // Change this line
+    if (val == 12) { 
         return "Equal";
     }
     return "Not Equal";
 }
 testEqual(10);
+
+function testStrict(val) {
+    if (val === 7) { 
+        return "Equal";
+    }
+    return "Not Equal";
+}
