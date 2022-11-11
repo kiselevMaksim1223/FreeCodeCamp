@@ -152,7 +152,7 @@ trueOrFalse(false)
 
 // equal or not equal, === mean strict equal, == convert both values on same type
 function testEqual(val) {
-    if (val == 12) { 
+    if (val == 12) {
         return "Equal";
     }
     return "Not Equal";
@@ -160,8 +160,16 @@ function testEqual(val) {
 testEqual(10);
 
 function testStrict(val) {
-    if (val === 7) { 
+    if (val === 7) {
         return "Equal";
     }
     return "Not Equal";
+}
+
+// !== Strictly Not Equal, != not equal(convert on one type)
+function testStrictNotEqual(val) {
+    if (val !== 17) { // Change this line
+        return "Not Equal";
+    }
+    return "Equal";
 }
