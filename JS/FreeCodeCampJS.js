@@ -81,21 +81,36 @@ const lastName2 = "Lovelace";
 // Only change code below this line
 const secondToLastLetterOfLastName = lastName2[lastName2.length - 2]; // Change this line
 // Nest one Array within Another Array
-const myArray1 = [[1, 2, 3], ["ass", 13]];
+const myArray1 = [
+    [1, 2, 3],
+    ["ass", 13]
+];
 // Modify Array Data With Indexes
 const myArray2 = [18, 64, 99];
 myArray2[0] = 45
 // Manipulate Arrays With push()
-const myArray3 = [["John", 23], ["cat", 2]];
+const myArray3 = [
+    ["John", 23],
+    ["cat", 2]
+];
 myArray3.push(["dog", 3]);
 // pop()
-const myArray4 = [["John", 23], ["cat", 2]];
+const myArray4 = [
+    ["John", 23],
+    ["cat", 2]
+];
 const removedFromMyArray4 = myArray4.pop();
 // Manipulate Arrays With shift()
-const myArray5 = [["John", 23], ["dog", 3]];
+const myArray5 = [
+    ["John", 23],
+    ["dog", 3]
+];
 const removedFromMyArray5 = myArray5.shift();
 // Manipulate Arrays With unshift()
-const myArray = [["John", 23], ["dog", 3]];
+const myArray = [
+    ["John", 23],
+    ["dog", 3]
+];
 myArray.shift();
 myArray.unshift(["Paul", 35])
 // Passing Values to Functions with Arguments
@@ -125,3 +140,12 @@ function fun2() {
     }
     console.log(output);
 }
+
+// boolean
+function trueOrFalse(wasThatTrue) {
+    if (wasThatTrue) {
+        return "Yes, that was true"
+    } else return "No, that was false"
+}
+trueOrFalse(true)
+trueOrFalse(false)
