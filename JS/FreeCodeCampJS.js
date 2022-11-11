@@ -236,3 +236,11 @@ function testElse(val) {
     } else result = "5 or Smaller";
     return result;
 }
+// esle..if multiple time
+function testElseIf(val) {
+    if (val > 10) {
+        return "Greater than 10";
+    } else if (val < 5) {
+        return "Smaller than 5";
+    } else return "Between 5 and 10";
+}
