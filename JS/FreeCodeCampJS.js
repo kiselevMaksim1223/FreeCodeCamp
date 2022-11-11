@@ -149,3 +149,12 @@ function trueOrFalse(wasThatTrue) {
 }
 trueOrFalse(true)
 trueOrFalse(false)
+
+// equal or not equal
+function testEqual(val) {
+    if (val == 12) { // Change this line
+        return "Equal";
+    }
+    return "Not Equal";
+}
+testEqual(10);
