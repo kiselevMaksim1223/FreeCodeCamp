@@ -184,3 +184,13 @@ function testGreaterThan(val) {
     }
     return "10 or Under";
 }
+// >= 
+function testGreaterOrEqual(val) {
+    if (val >= ) { 
+        return "20 or Over";
+    }
+    if (val >= ) { 
+        return "10 or Over";
+    }
+    return "Less than 10";
+}
