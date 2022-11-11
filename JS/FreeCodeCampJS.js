@@ -206,12 +206,18 @@ function testLessThan(val) {
 }
 // <=
 function testLessOrEqual(val) {
-    if (val <= 12) { 
+    if (val <= 12) {
         return "Smaller Than or Equal to 12";
     }
-    if (val <= 24) { 
+    if (val <= 24) {
         return "Smaller Than or Equal to 24";
     }
     return "More Than 24";
 }
-// 
+// operator &&
+function testLogicalAnd(val) {
+    if (val <= 50 && val >= 25) {
+        return "Yes";
+    }
+    return "No";
+}
